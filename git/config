@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:GraphiteHelix-Admin/pub_repo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "ssti"]
+	remote = origin
+	merge = refs/heads/ssti
+[branch "xss"]
+	remote = origin
+	merge = refs/heads/xss
